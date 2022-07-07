@@ -24,9 +24,9 @@ class SignUpMainBottomSheetFM : BottomSheetDialogFragment(), View.OnClickListene
     }
 
     private fun clickButton() {
-        binding.tvPhoneMailTiktok.setOnClickListener(this)
+//        binding.tvPhoneMailTiktok.setOnClickListener(this)
         binding.ivClose.setOnClickListener(this)
-        binding.tvSignIn.setOnClickListener(this)
+//        binding.tvSignIn.setOnClickListener(this)
     }
 
     override fun getTheme(): Int {
